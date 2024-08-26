@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
-import Footer from "@/components/footer";
 import { Analytics } from "@vercel/analytics/react"
 
 import "cal-sans";
@@ -29,7 +28,6 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
-          <Footer />
           <Analytics />
         </ThemeProvider>
       </body>

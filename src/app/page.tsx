@@ -5,7 +5,12 @@ export default function Home() {
   return (
     <main className="flex flex-col md:items-center justify-center py-24 px-4">
       <div>
-        <h1 className="text-4xl font-bold">I &apos;m Ganesh</h1>
+        <h1 className="text-4xl font-bold">
+          I &apos;m{" "}
+          <Link href="https://ganesh-mu.vercel.app/">
+            <u>Ganesh</u>
+          </Link>
+        </h1>
 
         <div className="nx-mb-8 nx-flex nx-justify-end nx-items-center nx-gap-3">
           <div className="ml-auto pr-4">
@@ -48,7 +53,10 @@ export default function Home() {
             </li>
             <li>
               <span>LinkedIn : </span>
-              <Link href="https://www.linkedin.com/in/ganesh097" className="underline">
+              <Link
+                href="https://www.linkedin.com/in/ganesh097"
+                className="underline"
+              >
                 {" "}
                 @Ganesh
               </Link>
@@ -56,19 +64,14 @@ export default function Home() {
           </ul>
 
           <div className="flex flex-row gap-4 mt-6">
-            <Link
-              href="https://github.com/mc095"
-              className="text-sm bg-gray-900 w-36 rounded-xl py-3 px-2 underline flex items-center justify-center">
-              <Star className="h-5 w-5 text-yellow-500 mr-2" />
-              <span>My Github</span>
-            </Link>
-
-            <Link
-              href="https://ganesh-mu.vercel.app/"
-              className="text-sm bg-gray-900 w-36 rounded-xl py-3 px-2 underline flex items-center justify-center">
+            <a
+              href="https://wa.me/918008149866"
+              className="text-sm bg-gray-900 w-36 rounded-xl py-3 px-2 underline flex items-center justify-center"
+              target="_blank"
+              rel="noopener noreferrer">
               <User className="h-5 w-5 text-yellow-500 mr-2" />
-              <span>Contact me</span>
-            </Link>
+              <span>Contact me</span>  
+            </a>
           </div>
         </div>
       </div>

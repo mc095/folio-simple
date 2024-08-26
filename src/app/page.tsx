@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="flex flex-col md:items-center justify-center py-24 px-4">
       <div>
-        <h1 className="text-4xl font-bold">I'm Ganesh</h1>
+        <h1 className="text-4xl font-bold">I &apos;m Ganesh</h1>
 
         <div className="nx-mb-8 nx-flex nx-justify-end nx-items-center nx-gap-3">
           <div className="ml-auto pr-4">
@@ -43,7 +43,7 @@ export default function Home() {
               <span>Email : </span>
               <Link href="mailto:22a81a05q0@sves.org.in" className="underline">
                 {" "}
-                Let's talk
+                Let&apos;s talk
               </Link>
             </li>
             <li>
